@@ -3,6 +3,8 @@
     "name": "A best place for programming",
     "background_color": "#2196F3",
     "orientation": "portrait",
+    "start_url": "https://cyphershield.tech/",
+    "display": "standalone",
  "icons": [
   {
    "src": "manifest-icons/android-icon-36x36.png",
