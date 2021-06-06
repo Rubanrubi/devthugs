@@ -1,11 +1,10 @@
 {
     "short_name": "Dev Thugs",
-    "name": "A best place to learn programming",
+    "name": "A best place for programming",
+    "background_color": "#2196F3",
+    "orientation": "portrait",
     "start_url": "https://cyphershield.tech/",
     "display": "standalone",
-    "background_color": "#ffffff",
-    "theme_color": "#3f3ab0",
-    "orientation": "portrait-primary",
  "icons": [
   {
    "src": "manifest-icons/android-icon-36x36.png",
@@ -22,7 +21,7 @@
   {
    "src": "manifest-icons/android-icon-72x72.png",
    "sizes": "72x72",
-   "type": "image/png",
+   "type": "image\/png",
    "density": "1.5"
   },
   {

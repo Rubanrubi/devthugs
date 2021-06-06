@@ -3,11 +3,12 @@
 <head>
     <!-- Required Meta Tags -->
     <meta charset="utf-8">
+    <link rel="manifest" href="{{asset('manifest.json')}}">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@yield('title')</title>
     <link rel="icon" type="image/png" href="{{asset('/img/favicon.png') }}"/>
-
+    <link rel="stylesheet" href="{{ mix('/css/all.css') }}" as="style">
     <!--Core CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
     {{--        <link href="{{ mix('css/mapbox-gl.css')}}" rel="stylesheet" />--}}
