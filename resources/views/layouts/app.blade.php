@@ -11,9 +11,7 @@
     <link rel="stylesheet" href="{{ mix('/css/all.css') }}" as="style">
     <!--Core CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
-    {{--        <link href="{{ mix('css/mapbox-gl.css')}}" rel="stylesheet" />--}}
     <link rel="stylesheet" href="{{ mix('/css/all.css') }}" as="style">
-    {{--        <link id="theme-sheet" rel="stylesheet" href="{{ mix('assets/css/core.css')}}">--}}
 </head>
 <body class="is-theme-core">
 <div class="pageloader"></div>
