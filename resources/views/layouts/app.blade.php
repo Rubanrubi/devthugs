@@ -15,8 +15,8 @@
     {{--        <link id="theme-sheet" rel="stylesheet" href="{{ mix('assets/css/core.css')}}">--}}
 </head>
 <body class="is-theme-core">
-{{--<div class="pageloader"></div>--}}
-{{--<div class="infraloader is-active"></div>--}}
+<div class="pageloader"></div>
+<div class="infraloader is-active"></div>
 <!-- Hero (Parallax) and nav -->
 <div class="hero is-app-grey">
 

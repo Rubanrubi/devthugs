@@ -2,10 +2,10 @@ const cacheName = 'dev-thugs-v1';
 
 const cacheAssets = [
     'index.php',
-  'css/all.css',
+    'css/all.css',
     'css/app.css',
-  'css/all.js',
-    'img/*'
+    'js/all.js',
+    // 'img/*'
 ];
 
 // Call Install Event
