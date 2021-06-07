@@ -2,6 +2,7 @@ const cacheName = 'dev-thugs-v1';
 
 const cacheAssets = [
     '/',
+    'img/favicon.png',
     'css/all.css',
     'css/app.css',
     'js/all.js',
