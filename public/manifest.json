@@ -5,6 +5,7 @@
     "orientation": "portrait",
     "start_url": "https://cyphershield.tech/",
     "display": "standalone",
+    "theme_color": "#317EFB",
  "icons": [
   {
    "src": "manifest-icons/android-icon-36x36.png",
