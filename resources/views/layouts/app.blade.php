@@ -15,8 +15,8 @@
     <link rel="stylesheet" href="{{ mix('/css/all.css') }}" as="style">
 </head>
 <body class="is-theme-core">
-{{--<div class="pageloader"></div>--}}
-{{--<div class="infraloader is-active"></div>--}}
+<div class="pageloader"></div>
+<div class="infraloader is-active"></div>
 <!-- Hero (Parallax) and nav -->
 <div class="hero is-app-grey">
 
