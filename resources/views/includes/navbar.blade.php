@@ -3,7 +3,8 @@
         <!-- Brand -->
         <div class="navbar-brand">
             <a class="navbar-item" href="#">
-                <img class="switcher-logo" src="{{asset('/img/logos/logo/bulkit-core.svg') }}" alt="">
+                {{ config('app.name', 'Laravel') }}
+{{--                <img class="switcher-logo" src="{{asset('assets/img/logos/logo/bulkit-core.svg') }}" alt="">--}}
             </a>
 
             <!-- Sidebar Trigger -->
@@ -43,7 +44,7 @@
                 <!-- Dropdown -->
                 <div class="navbar-item has-dropdown is-hoverable is-mega">
                     <div class="navbar-link">
-                        Menu
+                        PHP
                     </div>
                     <div class="navbar-dropdown is-megamenu animated prefadeInUp fadeInUp" data-style="width: 18rem;">
                         <div class="mega-inner">
@@ -504,20 +505,20 @@
                             </div>
 
                             <div class="menu-image is-hidden-mobile">
-                                <img src="{{asset('/img/graphics/legacy/megamenu-core.svg')}}"
-                                     data-base-url="{{asset('/img/graphics/legacy/megamenu')}}" data-extension=".svg"
+                                <img src="{{asset('assets/img/graphics/legacy/megamenu-core.svg')}}"
+                                     data-base-url="{{asset('assets/img/graphics/legacy/megamenu')}}" data-extension=".svg"
                                      alt="">
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Navbar item -->
-                <a class="navbar-item is-slide is-centered-tablet scroll-link" href="#bulkit-demos" target="_blank">
+                <a class="navbar-item is-slide is-centered-tablet scroll-link" href="{{url('/')}}/single-post" target="_blank">
                     Demos
                 </a>
 
                 <!-- Navbar item -->
-                <a class="navbar-item is-slide is-centered-tablet scroll-link" href="#demo-elements" target="_blank">
+                <a class="navbar-item is-slide is-centered-tablet scroll-link" href="{{url('/')}}" target="_blank">
                     Components
                 </a>
             </div>
@@ -552,7 +553,7 @@
         <!-- Brand -->
         <div class="navbar-brand">
             <a class="navbar-item" href="index.html">
-                <img class="switcher-logo" src="{{asset('/img/logos/logo/bulkit-core.svg')}}" alt="">
+                <img class="switcher-logo" src="{{asset('assets/img/logos/logo/bulkit-core.svg')}}" alt="">
             </a>
 
             <!-- Sidebar Trigger -->
@@ -1053,20 +1054,20 @@
                             </div>
 
                             <div class="menu-image is-hidden-mobile">
-                                <img src="{{asset('/img/graphics/legacy/megamenu-core.svg')}}"
-                                     data-base-url="{{asset('/img/graphics/legacy/megamenu')}}" data-extension=".svg"
+                                <img src="{{asset('assets/img/graphics/legacy/megamenu-core.svg')}}"
+                                     data-base-url="{{asset('assets/img/graphics/legacy/megamenu')}}" data-extension=".svg"
                                      alt="">
                             </div>
                         </div>
                     </div>
                 </div>
                 <!-- Navbar item -->
-                <a class="navbar-item is-slide is-centered-tablet scroll-link" href="#bulkit-demos" target="_blank">
+                <a class="navbar-item is-slide is-centered-tablet scroll-link" href="{{url('/')}}">
                     Demos
                 </a>
 
                 <!-- Navbar item -->
-                <a class="navbar-item is-slide is-centered-tablet scroll-link" href="#demo-elements" target="_blank">
+                <a class="navbar-item is-slide is-centered-tablet scroll-link" href="{{url('/')}}/single-post">
                     Components
                 </a>
 

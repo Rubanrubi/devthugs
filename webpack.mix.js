@@ -14,20 +14,20 @@ require('laravel-mix-purgecss');
 // Template Js
 mix.scripts([
     'resources/assets/js/app.js',
-    'resources/assets/js/core.js'], 'public/js/all.js')
+    'resources/assets/js/core.js'], 'public/assets/js/all.js')
     .sourceMaps()
 
     // Template Css
     mix.styles([
         'resources/assets/css/app.css',
         'resources/assets/css/core.css'
-    ], 'public/css/all.css')
+    ], 'public/assets/css/all.css')
 
     // Demo images
-    .copy('resources/assets/img/','public/img/')
+    .copy('resources/assets/img/','public/assets/img/')
 
     // Template fonts
-    .copy('resources/assets/fonts/','public/fonts/')
+    .copy('resources/assets/fonts/','public/assets/fonts/')
 
 if (mix.inProduction()) {
     mix.version()

@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Livewire\Home;
+use App\Http\Livewire\SinglePost;
 use Illuminate\Support\Facades\Route;
 
 /*
@@ -14,8 +16,13 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return view('maintanance');
 });
+
+Route::get('/home',Home::class);
+Route::get('/single-post',SinglePost::class);
+
+//Route::livewire('/login','login');
 
 
 Route::get('/blog-single-page', function () {

@@ -8,15 +8,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>@yield('title')</title>
-    <link rel="icon" type="image/png" href="{{asset('/img/favicon.png') }}"/>
-    <link rel="stylesheet" href="{{ mix('/css/all.css') }}" as="style">
+    <link rel="icon" type="image/png" href="{{asset('assets/img/favicon.png') }}"/>
+    <link rel="stylesheet" href="{{ mix('assets/css/all.css') }}" as="style">
     <!--Core CSS -->
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&amp;display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="{{ mix('/css/all.css') }}" as="style">
+    @livewireStyles
 </head>
 <body class="is-theme-core">
-<div class="pageloader"></div>
-<div class="infraloader is-active"></div>
+{{--<div class="pageloader"></div>--}}
+{{--<div class="infraloader is-active"></div>--}}
 <!-- Hero (Parallax) and nav -->
 <div class="hero is-app-grey">
 
@@ -30,8 +30,7 @@
                     <h1 class="title is-2">
                         BLOG
                     </h1>
-                    <h2 class="subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quid enim? Immo videri
-                        fortasse. Compensabatur, inquit.</h2>
+                    <h2 class="subtitle">DevThugs provide a collection of tutorials about PHP, Laravel Framework, Codeigniter Framework, Mysql Database, Bootstrap Front-end Framework, Jquery, Node JS, Ajax Example, APIs, CURL Example, Composer Packages Example, AngularJS etc. You will find the best example an article about PHP Language. So you can also search tutorial from bellow search box..</h2>
                 </div>
             </div>
         </div>
@@ -58,9 +57,11 @@
     }
 </script>
 
-<script src="{{ mix('/js/all.js') }}" as="script" async></script>
+<script src="{{ mix('assets/js/all.js') }}" as="script" async></script>
+@livewireScripts
+<script src="https://cdnjs.cloudflare.com/ajax/libs/turbolinks/5.0.0/turbolinks.js" integrity="sha512-P3/SDm/poyPMRBbZ4chns8St8nky2t8aeG09fRjunEaKMNEDKjK3BuAstmLKqM7f6L1j0JBYcIRL4h2G6K6Lew==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
-{{--    <script src="assets/js/app.js"></script>--}}
-{{--    <script src="assets/js/core.js"></script>--}}
+{{--    <script src="assetsassets/js/app.js"></script>--}}
+{{--    <script src="assetsassets/js/core.js"></script>--}}
 </body>
 </html>

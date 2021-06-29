@@ -1,6 +1,6 @@
 @extends('layouts.app')
 
-@section('title') DevThugs @endsection
+@section('title') Home @endsection
 
 @section('content')
     <!-- Blog post list section -->
@@ -14,7 +14,7 @@
                     <div class="is-post light-bordered">
                         <div class="featured-post-image">
                             <img src="https://via.placeholder.com/1200x300"
-                                 data-demo-src="{{asset('/img/demo/posts/post-1.jpg')}}" alt="">
+                                 data-demo-src="{{asset('assets/img/demo/posts/post-1.jpg')}}" alt="">
                             <div class="post-date">
                                 <div class="post-date-inner">
                                     <span>Oct</span>
@@ -27,7 +27,7 @@
                             <div class="featured-post-title">
                                 <div class="title-avatar">
                                     <img src="https://via.placeholder.com/250x250" alt=""
-                                         data-demo-src="{{asset('/img/avatars/alan.jpg')}}">
+                                         data-demo-src="{{asset('assets/img/avatars/alan.jpg')}}">
                                 </div>
                                 <div class="title-meta">
                                     <h2 class="post-title">How design has become critical in business Projects</h2>
@@ -54,7 +54,7 @@
                     <div class="is-post light-bordered">
                         <div class="featured-post-image">
                             <img src="https://via.placeholder.com/1200x300"
-                                 data-demo-src="{{asset('/img/demo/posts/post-2.jpg')}}" alt="">
+                                 data-demo-src="{{asset('assets/img/demo/posts/post-2.jpg')}}" alt="">
                             <div class="post-date">
                                 <div class="post-date-inner">
                                     <span>Oct</span>
@@ -67,7 +67,7 @@
                             <div class="featured-post-title">
                                 <div class="title-avatar">
                                     <img src="https://via.placeholder.com/250x250" alt=""
-                                         data-demo-src="{{asset('/img/avatars/carolin.png')}}">
+                                         data-demo-src="{{asset('assets/img/avatars/carolin.png')}}">
                                 </div>
                                 <div class="title-meta">
                                     <h2 class="post-title">5 Things you should know when planning for a new online store
@@ -95,7 +95,7 @@
                     <div class="is-post light-bordered">
                         <div class="featured-post-image">
                             <img src="https://via.placeholder.com/1200x300"
-                                 data-demo-src="{{asset('/img/demo/posts/post-3.jpg')}}" alt="">
+                                 data-demo-src="{{asset('assets/img/demo/posts/post-3.jpg')}}" alt="">
                             <div class="post-date">
                                 <div class="post-date-inner">
                                     <span>Oct</span>
@@ -108,7 +108,7 @@
                             <div class="featured-post-title">
                                 <div class="title-avatar">
                                     <img src="https://via.placeholder.com/250x250" alt=""
-                                         data-demo-src="{{asset('/img/avatars/marc.jpg')}}">
+                                         data-demo-src="{{asset('assets/img/avatars/marc.jpg')}}">
                                 </div>
                                 <div class="title-meta">
                                     <h2 class="post-title">Power up your SPA developments by using Vue js</h2>
@@ -135,7 +135,7 @@
                     <div class="is-post light-bordered">
                         <div class="featured-post-image">
                             <img src="https://via.placeholder.com/1200x300"
-                                 data-demo-src="{{asset('/img/demo/posts/post-4.jpg')}}" alt="">
+                                 data-demo-src="{{asset('assets/img/demo/posts/post-4.jpg')}}" alt="">
                             <div class="post-date">
                                 <div class="post-date-inner">
                                     <span>Oct</span>
@@ -148,7 +148,7 @@
                             <div class="featured-post-title">
                                 <div class="title-avatar">
                                     <img src="https://via.placeholder.com/250x250" alt=""
-                                         data-demo-src="{{asset('/img/avatars/elie.jpg')}}">
+                                         data-demo-src="{{asset('assets/img/avatars/elie.jpg')}}">
                                 </div>
                                 <div class="title-meta">
                                     <h2 class="post-title">Using Figma to speed up the design process</h2>
@@ -175,7 +175,7 @@
                     <div class="is-post light-bordered">
                         <div class="featured-post-image">
                             <img src="https://via.placeholder.com/1200x300"
-                                 data-demo-src="{{asset('/img/demo/posts/post-5.jpg')}}" alt="">
+                                 data-demo-src="{{asset('assets/img/demo/posts/post-5.jpg')}}" alt="">
                             <div class="post-date">
                                 <div class="post-date-inner">
                                     <span>Oct</span>
@@ -188,7 +188,7 @@
                             <div class="featured-post-title">
                                 <div class="title-avatar">
                                     <img src="https://via.placeholder.com/250x250" alt=""
-                                         data-demo-src="{{asset('/img/avatars/helen.jpg')}}">
+                                         data-demo-src="{{asset('assets/img/avatars/helen.jpg')}}">
                                 </div>
                                 <div class="title-meta">
                                     <h2 class="post-title">8 Tips to chose the best payment provider for your
@@ -216,7 +216,7 @@
                     <div class="is-post light-bordered">
                         <div class="featured-post-image">
                             <img src="https://via.placeholder.com/1200x300"
-                                 data-demo-src="{{asset('/img/demo/posts/post-6.jpg')}}" alt="">
+                                 data-demo-src="{{asset('assets/img/demo/posts/post-6.jpg')}}" alt="">
                             <div class="post-date">
                                 <div class="post-date-inner">
                                     <span>Oct</span>
@@ -229,7 +229,7 @@
                             <div class="featured-post-title">
                                 <div class="title-avatar">
                                     <img src="https://via.placeholder.com/250x250" alt=""
-                                         data-demo-src="{{asset('/img/avatars/anthony.jpg')}}">
+                                         data-demo-src="{{asset('assets/img/avatars/anthony.jpg')}}">
                                 </div>
                                 <div class="title-meta">
                                     <h2 class="post-title">How to assess an idea and start working on the MVP</h2>
@@ -279,13 +279,13 @@
                                 <a href="#" class="blog-sidebar-post">
                                     <div class="post-image">
                                         <img src="https://via.placeholder.com/1600x900" alt=""
-                                             data-demo-src="{{asset('/img/demo/posts/thumb-1.jpg')}}">
+                                             data-demo-src="{{asset('assets/img/demo/posts/thumb-1.jpg')}}">
                                     </div>
                                     <div class="post-content">
                                         <h3>Learning design has become trendy in 2020</h3>
                                         <div class="meta">
                                             <img src="https://via.placeholder.com/250x250" alt=""
-                                                 data-demo-src="{{asset('/img/avatars/helen.jp')}}g">
+                                                 data-demo-src="{{asset('assets/img/avatars/helen.jp')}}g">
                                             <span>Helen Miller</span>
                                         </div>
                                     </div>
@@ -295,13 +295,13 @@
                                 <a href="#" class="blog-sidebar-post">
                                     <div class="post-image">
                                         <img src="https://via.placeholder.com/1600x900" alt=""
-                                             data-demo-src="{{asset('/img/demo/posts/thumb-2.jpg')}}">
+                                             data-demo-src="{{asset('assets/img/demo/posts/thumb-2.jpg')}}">
                                     </div>
                                     <div class="post-content">
                                         <h3>3 Strategies around customer emgagement</h3>
                                         <div class="meta">
                                             <img src="https://via.placeholder.com/250x250" alt=""
-                                                 data-demo-src="{{asset('/img/avatars/elie.jpg')}}">
+                                                 data-demo-src="{{asset('assets/img/avatars/elie.jpg')}}">
                                             <span>Elie Daniels</span>
                                         </div>
                                     </div>
@@ -311,13 +311,13 @@
                                 <a href="#" class="blog-sidebar-post">
                                     <div class="post-image">
                                         <img src="https://via.placeholder.com/1600x900" alt=""
-                                             data-demo-src="{{asset('/img/demo/posts/thumb-3.jpg')}}">
+                                             data-demo-src="{{asset('assets/img/demo/posts/thumb-3.jpg')}}">
                                     </div>
                                     <div class="post-content">
                                         <h3>Let me tell you why jQuery is not dead yet</h3>
                                         <div class="meta">
                                             <img src="https://via.placeholder.com/250x250" alt=""
-                                                 data-demo-src="{{asset('/img/avatars/nick.jpg')}}">
+                                                 data-demo-src="{{asset('assets/img/avatars/nick.jpg')}}">
                                             <span>Nick Motta</span>
                                         </div>
                                     </div>
@@ -327,13 +327,13 @@
                                 <a href="#" class="blog-sidebar-post">
                                     <div class="post-image">
                                         <img src="https://via.placeholder.com/1600x900" alt=""
-                                             data-demo-src="{{asset('/img/demo/posts/thumb-4.jpg')}}">
+                                             data-demo-src="{{asset('assets/img/demo/posts/thumb-4.jpg')}}">
                                     </div>
                                     <div class="post-content">
                                         <h3>Feeling alone in front of customer design choices?</h3>
                                         <div class="meta">
                                             <img src="https://via.placeholder.com/250x250" alt=""
-                                                 data-demo-src="{{asset('/img/avatars/henry.jpg')}}">
+                                                 data-demo-src="{{asset('assets/img/avatars/henry.jpg')}}">
                                             <span>Donald Baker</span>
                                         </div>
                                     </div>
